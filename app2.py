@@ -7,7 +7,7 @@ st.set_page_config(page_title="UW CoFounder Search", page_icon="🤝", layout="w
 # -----------------------------
 # LOGO
 # -----------------------------
-logo_path = r"C:\Users\Purrnima Dayanandam\CoFounder\Logo_CoFounder_App (1).png"
+logo_path = "Logo_CoFounder_App (1).png"
 
 if os.path.exists(logo_path):
     logo = Image.open(logo_path)
